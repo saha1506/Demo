@@ -6,7 +6,7 @@
 .gradle*
 /Assets/AssetStoreTools*
 /Assets/ThirdParty/*
-!/Assets/ThirdParty/NaninovelData*
+/Assets/NaninovelData/Saves*
 /Photoshop*
 
 # Allow third-party dlls
