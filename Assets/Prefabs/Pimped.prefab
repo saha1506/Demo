@@ -84,8 +84,8 @@ MonoBehaviour:
       m_Calls: []
   content: {fileID: 7466899038394840338}
   continueInputTrigger: {fileID: 1560104929271160}
-  actorNamePanel: {fileID: 6695179159936184171}
-  actorAvatarImage: {fileID: 1561658225156622132}
+  authorNamePanel: {fileID: 6695179159936184171}
+  authorAvatarImage: {fileID: 7348196799934361097}
   inputIndicator: {fileID: 114522303404012452, guid: 2554d0900e1a69944bdee8b2feb8207b,
     type: 3}
   positionIndicatorOverText: 1
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 6695179159936184171}
   - component: {fileID: 3737802985904718460}
   m_Layer: 5
-  m_Name: ActorNamePanel
+  m_Name: AuthorNamePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -567,7 +567,7 @@ GameObject:
   - component: {fileID: 356914507884179697}
   - component: {fileID: 2544492216216772357}
   m_Layer: 5
-  m_Name: ActorNameText
+  m_Name: AuthorNameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -863,6 +863,8 @@ GameObject:
   - component: {fileID: 2886955302790293375}
   - component: {fileID: 6879026029779014326}
   - component: {fileID: 1561658225156622132}
+  - component: {fileID: 8391922404728288799}
+  - component: {fileID: 7348196799934361097}
   m_Layer: 5
   m_Name: AvatarImage
   m_TagString: Untagged
@@ -922,6 +924,37 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!225 &8391922404728288799
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7492923754611769787}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &7348196799934361097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7492923754611769787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfcbe7c02e77b974ebd628a12ef88d22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableInteraction: 0
+  visibleOnAwake: 1
+  fadeTime: 0.3
+  focusObject: {fileID: 0}
+  onVisibilityChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &9056834971122360257
 GameObject:
   m_ObjectHideFlags: 0
