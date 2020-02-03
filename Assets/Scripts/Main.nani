@@ -12,7 +12,7 @@
 @char n look:right pos:25,-75
 @wait 0.35
 @sfx Paper
-@fx ShakeCharacter params:n,1,0.3,0,0.5,0
+@spawn ShakeCharacter params:n,1,0.3,0,0.5,0
 @wait 0.5
 @sfx Paper
 @char n look:left pos:35,-80
@@ -27,7 +27,7 @@
 @char n look:left pos:85,-45
 @sfx Paper
 @char n.Surprise wait:false
-@fx ShakeCharacter params:n,1,0.1,0,0.2,0 wait:false
+@spawn ShakeCharacter params:n,1,0.1,0,0.2,0 wait:false
 @wait 0.5
 @char n.Default pos:50,-10
 @stopBgm Wind wait:false time:5
@@ -98,12 +98,12 @@ k: .[wait 0.5] .[wait 0.5] .
 @char k look:left
 @wait 0.25
 @char k look:right
-@fx ShakePrinter params:,3 wait:false
+@spawn ShakePrinter params:,3 wait:false
 @style default
 k: Whoa, what's going on?! Where am I?
 
 @sfx Paper
-@fx ShakeCharacter params:n,1,0.3,0,0.5,0 wait:false
+@spawn ShakeCharacter params:n,1,0.3,0,0.5,0 wait:false
 @char n.Surprise wait:false
 n: Oh dear, looks like we've snatched you away in the middle of a class.[i][char n.Default] Name's Nani-kun, sorry for the sudden call. Would you help us with this demo tutorial, please?
 
@@ -120,7 +120,7 @@ n: Uhm, wait...[i] What[skipInput]
 @bgm JellyRolls fade:1 wait:false
 @char k.Happy look:left pos:90,,1 wait:false
 @char n.Pain look:left pos:82,-10,-1 scale:0.9
-@fx ShakeCharacter params:n,2,0.3,0,0.5,0
+@spawn ShakeCharacter params:n,2,0.3,0,0.5,0
 @sfx Paper
 
 n: No, stop! My ears...
@@ -128,7 +128,7 @@ n: No, stop! My ears...
 @hidePrinter  wait:false
 @arrange k.15,n.25
 @sfx Paper
-@fx ShakeCharacter params:n,2,0.3,0,0.5,0
+@spawn ShakeCharacter params:n,2,0.3,0,0.5,0
 n: You have to do something, use novel script![skipInput]
 
 @set triedMoving=false
@@ -152,7 +152,7 @@ k: You won't get away from my passion!
 @char k.Happy look:right pos:15
 @sfx Paper
 @char n.Pain wait:false
-@fx ShakeCharacter params:n,1,0.3,0,0.5,0 wait:false
+@spawn ShakeCharacter params:n,1,0.3,0,0.5,0 wait:false
 @set tries++
 @goto .Choices
 
@@ -165,7 +165,7 @@ n: You just made her angry! Not sure if it'll help...
 k: No way!
 @sfx Paper
 @char n.Pain wait:false
-@fx ShakeCharacter params:n,1,0.3,0,0.5,0 wait:false
+@spawn ShakeCharacter params:n,1,0.3,0,0.5,0 wait:false
 @set tries++
 @goto .Choices
 
@@ -177,13 +177,13 @@ n: That's it! You've removed her from the scene!
 @arrange 
 @stopBgm  wait:false time:1
 @bgm Wind fade:1 wait:false
-n: Guess we should have called someone else[sfx Glitter volume:0.25][fx DigitalGlitch params:0.1] instead...
+n: Guess we should have called someone else[sfx Glitter volume:0.25][spawn DigitalGlitch params:0.1] instead...
 @char n.Default wait:false
-n: Wait, did you hear[sfx Glitter volume:0.5][fx DigitalGlitch params:0.25] that?
+n: Wait, did you hear[sfx Glitter volume:0.5][spawn DigitalGlitch params:0.25] that?
 @char n.Surprise wait:false
-n: No way...[i] She's hacking[sfx Glitter][sfx Bubbles volume:0.5][fx DigitalGlitch] through![i] They don't call her <b>Unity-chan</b> for nothing!
+n: No way...[i] She's hacking[sfx Glitter][sfx Bubbles volume:0.5][spawn DigitalGlitch] through![i] They don't call her <b>Unity-chan</b> for nothing!
 @sfx Bubbles
-@fx DigitalGlitch params:2.5,1.5 wait:false
+@spawn DigitalGlitch params:2.5,1.5 wait:false
 @sfx Glitter
 @wait 1
 @sfx Glitch
@@ -202,7 +202,7 @@ n: No way...[i] She's hacking[sfx Glitter][sfx Bubbles volume:0.5][fx DigitalGli
 @arrange k.85,n.75
 @sfx Paper
 @char n.Pain wait:false
-@fx ShakeCharacter params:n,2,0.3,0,0.5,0
+@spawn ShakeCharacter params:n,2,0.3,0,0.5,0
 
 @char k.Confidence
 k: That's what I call happiness overdose!
@@ -214,33 +214,33 @@ n: I was going to die...
 @wait 1
 
 @save
-n: By the way, those glitch effects were scary as hell; was it some kind of an <b>@fx</b> command?
+n: By the way, those glitch effects were scary as hell; was it some kind of an <b>@spawn</b> command?
 @char k.Confidence
 k: Yep, similar to the one you've used for shaking text window.[i] Wanna try?[skipInput]
 
 # FXChoice
-@choice "@fx DigitalGlitch" goto:.Glitch
-@choice "@fx ShakePrinter" goto:.Shake
+@choice "@spawn DigitalGlitch" goto:.Glitch
+@choice "@spawn ShakePrinter" goto:.Shake
 @choice "That's enough" goto:.Enough
 
 @stop
 
 # Glitch
-@fx DigitalGlitch
+@spawn DigitalGlitch
 @goto .FXChoice
 
 # Shake
-@fx ShakePrinter
+@spawn ShakePrinter
 @goto .FXChoice
 
 # Enough
-n: And of course you can add your own custom effects. It's as easy as dropping a prefab with the effect to a special folder; then just use <b>@fx</b> command followed by the prefab name to activate it.
+n: And of course you can add your own custom effects. It's as easy as dropping a prefab with the effect to a special folder; then just use <b>@spawn</b> command followed by the prefab name to activate it.
 n: It's also possible to place a command inside the text, so that it could be executed at the right moment. Like this.[skipInput]
 
-@choice "John: Shake[fx ShakePrinter] it!" goto:.JohnShake
+@choice "John: Shake[spawn ShakePrinter] it!" goto:.JohnShake
 @stop
 # JohnShake
-John: Shake[fx ShakePrinter] it!
+John: Shake[spawn ShakePrinter] it!
 
 @save
 @stopBgm  wait:false time:10
@@ -287,13 +287,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, turpis id po
 @bgm CloudNine fade:3 wait:false
 k: Okay, and what about making those windows something more than just boring rectangles?
 n: Sure, you can modify them any way you want.
-@fx ShakePrinter wait:false
+@spawn ShakePrinter wait:false
 @char k.Surprise wait:false
 k: Really?! Wanna try this!
 n: Uhm, sure...
 @char k.Confidence wait:false
 @style b
-k: .[wait 0.5][fx ShakePrinter] .[wait 0.5][fx ShakePrinter] .[fx ShakePrinter]
+k: .[wait 0.5][spawn ShakePrinter] .[wait 0.5][spawn ShakePrinter] .[spawn ShakePrinter]
 @hidePrinter 
 @style default
 @wait 1
