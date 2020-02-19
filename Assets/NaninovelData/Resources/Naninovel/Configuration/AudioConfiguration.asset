@@ -14,10 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AudioLoader:
     PathPrefix: Audio
-    ProviderTypes: 0000000001000000
+    ProviderTypes:
+    - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   VoiceLoader:
     PathPrefix: Voice
-    ProviderTypes: 0000000001000000
+    ProviderTypes:
+    - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   EnableAutoVoicing: 0
   VoiceOverlapPolicy: 1
   CustomAudioMixer: {fileID: 0}

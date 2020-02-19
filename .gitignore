@@ -5,6 +5,7 @@
 /[Bb]uilds/
 .gradle*
 /Assets/AssetStoreTools*
+/Assets/StreamingAssets*
 /Assets/ThirdParty/*
 /Assets/NaninovelData/Saves*
 /Photoshop*

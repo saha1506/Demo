@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BackgroundsConfiguration
   m_EditorClassIdentifier: 
   DefaultEasing: 0
+  AutoShowOnModify: 1
   SceneOrigin: {x: 0.5, y: 0}
   ZOffset: 100
   ZStep: 0.1
@@ -21,13 +22,18 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
     Loader:
       PathPrefix: Backgrounds
-      ProviderTypes: 0000000001000000
+      ProviderTypes:
+      - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
     guid: 60fddbdf-04b5-4cc6-aac4-cede96722b41
     Pivot: {x: 0.5, y: 0.5}
     PixelsPerUnit: 100
     EnableDepthPass: 1
     DepthAlphaCutoff: 0.5
     CustomShader: {fileID: 0}
+    Poses: []
   Metadata:
     ids:
     - MainBackground
@@ -37,21 +43,31 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       Loader:
         PathPrefix: Backgrounds
-        ProviderTypes: 0000000001000000
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
       guid: ac3eb478-0bdb-4ff8-a6eb-6bd98cc1bc09
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
       DepthAlphaCutoff: 0.5
       CustomShader: {fileID: 0}
+      Poses: []
     - Implementation: Naninovel.VideoBackground, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
         PathPrefix: Backgrounds
-        ProviderTypes: 0000000001000000
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
       guid: 2362f03f-2488-4ab2-98ec-d8ba89177101
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
       DepthAlphaCutoff: 0.5
       CustomShader: {fileID: 0}
+      Poses: []

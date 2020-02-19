@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: CharactersConfiguration
   m_EditorClassIdentifier: 
   DefaultEasing: 1
+  AutoShowOnModify: 1
   SceneOrigin: {x: 0.5, y: 0}
   ZOffset: 50
   ZStep: 0.1
@@ -22,7 +23,11 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
     Loader:
       PathPrefix: Characters
-      ProviderTypes: 0000000001000000
+      ProviderTypes:
+      - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
     guid: 9055247a-2ac1-4afc-9f2f-1c0d4fb180ed
     Pivot: {x: 0.5, y: 0}
     PixelsPerUnit: 100
@@ -42,6 +47,8 @@ MonoBehaviour:
     HighlightDuration: 0.35
     HighlightEasing: 1
     MessageSound: 
+    LinkedPrinter: 
+    Poses: []
   Metadata:
     ids:
     - n
@@ -52,7 +59,11 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       Loader:
         PathPrefix: Characters
-        ProviderTypes: 0000000001000000
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
       guid: e883742b-df47-404c-bb8d-92e4600a821f
       Pivot: {x: 0.5, y: 0}
       PixelsPerUnit: 100
@@ -72,11 +83,17 @@ MonoBehaviour:
       HighlightDuration: 0.35
       HighlightEasing: 1
       MessageSound: 
+      LinkedPrinter: 
+      Poses: []
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
         PathPrefix: Characters
-        ProviderTypes: 0000000001000000
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
       guid: 6a02c4cf-596f-4121-9cc3-050fa0d923ca
       Pivot: {x: 0.5, y: 0}
       PixelsPerUnit: 100
@@ -96,11 +113,17 @@ MonoBehaviour:
       HighlightDuration: 0.35
       HighlightEasing: 1
       MessageSound: 
+      LinkedPrinter: 
+      Poses: []
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
         PathPrefix: Characters
-        ProviderTypes: 0000000001000000
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
       guid: ac54eb03-3b5d-4717-9414-dd6a4c1a8e07
       Pivot: {x: 0.5, y: 0}
       PixelsPerUnit: 100
@@ -120,6 +143,12 @@ MonoBehaviour:
       HighlightDuration: 0.35
       HighlightEasing: 1
       MessageSound: 
+      LinkedPrinter: 
+      Poses: []
   AvatarLoader:
     PathPrefix: CharacterAvatars
-    ProviderTypes: 0000000001000000
+    ProviderTypes:
+    - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

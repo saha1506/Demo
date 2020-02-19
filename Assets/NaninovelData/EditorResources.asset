@@ -131,51 +131,6 @@ MonoBehaviour:
     - Name: k/Default
       PathPrefix: CharacterAvatars
       Guid: aa67a15d0c4c57a4db3d29e6bc7517ea
-  - Id: Naninovel/TextPrinters/132e205a-ddd5-47b0-a109-6f9862753e48
-    Resources:
-    - Name: Dialogue
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 1bc08ccd31adff6439e97161aa6e1d8b
-  - Id: Naninovel/TextPrinters/97272bcf-81e7-4b8d-9575-f0ff635d3e53
-    Resources:
-    - Name: Fullscreen
-      PathPrefix: Naninovel/TextPrinters
-      Guid: c87cebd3f0d4f174789cd351ce9591c4
-  - Id: Naninovel/TextPrinters/ac63c303-f802-4be2-971e-34127a8b4403
-    Resources:
-    - Name: Wide
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 781828b806deb1e4cbf50ef9de41da10
-  - Id: Naninovel/TextPrinters/b8bd321a-951b-4f19-88c7-80080ec2a264
-    Resources:
-    - Name: Chat
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 0126b92e4ff0f564aaa7a38eae3ef6e7
-  - Id: Naninovel/TextPrinters/b1707ce1-561f-4b1b-8e97-7182f29e9fbe
-    Resources:
-    - Name: Bubble
-      PathPrefix: Naninovel/TextPrinters
-      Guid: b47d9659b2be5ee4e95a776f213c9d4b
-  - Id: Naninovel/TextPrinters/de232b7d-6603-4829-9f0d-baf435f6d30f
-    Resources:
-    - Name: TMProDialogue
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 5838611042eaced44954639c4ea4d81e
-  - Id: Naninovel/TextPrinters/c6b0efa2-f1c6-4b8c-b7a0-66314d4e0230
-    Resources:
-    - Name: TMProFullscreen
-      PathPrefix: Naninovel/TextPrinters
-      Guid: a2aaa417785eeca409e78c404f333ee5
-  - Id: Naninovel/TextPrinters/4b19c383-5dca-431d-bf2a-07c2fd86ecf2
-    Resources:
-    - Name: TMProWide
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 7860ef40eae6a3341be02586f7edd980
-  - Id: Naninovel/TextPrinters/31989635-f091-4434-9571-f36e4227fc85
-    Resources:
-    - Name: TMProBubble
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 18cfa78b5fc89b745ba69d51a6a8629a
   - Id: Naninovel/ChoiceHandlers/28f2af47-70b1-467e-839d-d0ede19a0c6a
     Resources:
     - Name: ButtonList
@@ -265,7 +220,82 @@ MonoBehaviour:
     - Name: IVariableInputUI
       PathPrefix: UI
       Guid: bb95f484e341dcd4391a572f22b7d067
-  - Id: TextPrinters/2839713f-5bb1-4996-b091-c45219e26b97
+  - Id: TextPrinters/a2f98ea1-85e9-44f3-879e-277f78e202b5
+    Resources:
+    - Name: Pimped
+      PathPrefix: TextPrinters
+      Guid: 59f926edd95e3dd42985fe1d4c09819c
+  - Id: TextPrinters/a4f7adac-aa13-4ca3-9815-f042af0baea7
+    Resources:
+    - Name: Dialogue
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: TextPrinters/d7abfd3f-6a2d-467b-81bb-31bd30c922ac
+    Resources:
+    - Name: TMProDialogue
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: TextPrinters/ce19e156-2d96-49f0-9316-04486efb400e
+    Resources:
+    - Name: TMProBubble
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: TextPrinters/7e96794f-99e0-4b2d-8ab7-f7094e2bf9f6
+    Resources:
+    - Name: Wide
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: TextPrinters/299949bf-4c60-4107-8568-bed96bd8541a
+    Resources:
+    - Name: Dialogue
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: TextPrinters/4a425f84-75be-4c11-9bbc-dcc9eb678fa2
+    Resources:
+    - Name: TMProDialogue
+      PathPrefix: TextPrinters
+      Guid: 5838611042eaced44954639c4ea4d81e
+  - Id: TextPrinters/6d6789ea-9737-4a36-8de8-1edaf169ea96
+    Resources:
+    - Name: Dialogue
+      PathPrefix: TextPrinters
+      Guid: 1bc08ccd31adff6439e97161aa6e1d8b
+  - Id: TextPrinters/f2dc802c-4ac0-4409-ade9-18b39c61a714
+    Resources:
+    - Name: Chat
+      PathPrefix: TextPrinters
+      Guid: 0126b92e4ff0f564aaa7a38eae3ef6e7
+  - Id: TextPrinters/e57f6e8f-dde7-4da4-bf4d-d7a819558251
+    Resources:
+    - Name: Fullscreen
+      PathPrefix: TextPrinters
+      Guid: c87cebd3f0d4f174789cd351ce9591c4
+  - Id: TextPrinters/29b79d92-6625-4efa-859e-6b94f0ff4d6a
+    Resources:
+    - Name: Wide
+      PathPrefix: TextPrinters
+      Guid: 781828b806deb1e4cbf50ef9de41da10
+  - Id: TextPrinters/6e5fbc58-b0aa-46f4-badd-86663e64d552
+    Resources:
+    - Name: Bubble
+      PathPrefix: TextPrinters
+      Guid: b47d9659b2be5ee4e95a776f213c9d4b
+  - Id: TextPrinters/33e50b39-18bd-4b74-86a5-5852af017871
+    Resources:
+    - Name: TMProFullscreen
+      PathPrefix: TextPrinters
+      Guid: a2aaa417785eeca409e78c404f333ee5
+  - Id: TextPrinters/bc11e157-bb75-4dde-bc32-718ee748e616
+    Resources:
+    - Name: TMProWide
+      PathPrefix: TextPrinters
+      Guid: 7860ef40eae6a3341be02586f7edd980
+  - Id: TextPrinters/731e19ab-909c-4d7a-95ef-c7000c96d8bb
+    Resources:
+    - Name: TMProBubble
+      PathPrefix: TextPrinters
+      Guid: 18cfa78b5fc89b745ba69d51a6a8629a
+  - Id: TextPrinters/b3b6d2cf-fbc0-40e4-b27d-3891d1295e18
     Resources:
     - Name: Pimped
       PathPrefix: TextPrinters
