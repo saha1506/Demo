@@ -30,7 +30,7 @@
 @spawn ShakeCharacter params:n,1,0.1,0,0.2,0 wait:false
 @wait 0.5
 @char n.Default pos:50,-10
-@stopBgm Wind wait:false time:5
+@stopBgm Wind fade:5 wait:false
 @bgm CloudNine fade:1 wait:false
 n: Oh, hey there!
 n: Welcome to the demo![i] I'll show what you can achieve with Naninovel along with some brief tutorials.
@@ -75,7 +75,7 @@ n: Using Naninovel context menu, open characters manager and add a new character
 
 @save
 @hide b wait:false
-@stopBgm  wait:false time:5
+@stopBgm  fade:5 wait:false
 @bgm Wind fade:5 wait:false
 n: Alright, it's time to summon Kohaku-chan on scene![i][char b.ShowCharacter pos:{pos} wait:false] Type the following expression in the novel script and run the game.[skipInput]
 
@@ -87,7 +87,7 @@ n: Alright, it's time to summon Kohaku-chan on scene![i][char b.ShowCharacter po
 @hidePrinter 
 @wait 0.5
 @char k look:right pos:25 tint:#ffffff00 time:0
-@char k.Default transition:Ripple easing:EaseOutCubic wait:false time:3
+@char k.Default transition:Ripple easing:EaseOutCubic time:3 wait:false
 @char k tint:#ffffffff time:2
 @style b
 k: .[wait 0.5] .[wait 0.5] .
@@ -116,7 +116,7 @@ k: Though...[i][char k pos:37.5 wait:false] Those ears, so fluffy.[i][char k pos
 n: Uhm, wait...[i] What[skipInput]
 
 @hidePrinter  wait:false
-@stopBgm  wait:false time:1
+@stopBgm  fade:1 wait:false
 @bgm JellyRolls fade:1 wait:false
 @char k.Happy look:left pos:90,,1 wait:false
 @char n.Pain look:left pos:82,-10,-1 scale:0.9
@@ -175,7 +175,7 @@ k: No way!
 n: That's it! You've removed her from the scene!
 @char n scale:1 wait:false
 @arrange 
-@stopBgm  wait:false time:1
+@stopBgm  fade:1 wait:false
 @bgm Wind fade:1 wait:false
 n: Guess we should have called someone else[sfx Glitter volume:0.25][spawn DigitalGlitch params:0.1] instead...
 @char n.Default wait:false
@@ -190,14 +190,14 @@ n: No way...[i] She's hacking[sfx Glitter][sfx Bubbles volume:0.5][spawn Digital
 @hidePrinter  wait:false
 @char n pos:65 scale:0.9 wait:false
 @char k look:right pos:25 tint:#ffffff00 time:0
-@char k.Angry transition:Pixelate easing:EaseOutCubic wait:false time:2.5
+@char k.Angry transition:Pixelate easing:EaseOutCubic time:2.5 wait:false
 @char k tint:#ffffffff time:1
 @wait 1
-@arrange wait:false
+@arrange  wait:false
 @hidePrinter  wait:false
 @char n scale:0.9 wait:false
 @char k.Happy wait:false
-@stopBgm  wait:false time:1
+@stopBgm  fade:1 wait:false
 @bgm JellyRolls fade:1 wait:false
 @arrange k.85,n.75
 @sfx Paper
@@ -243,7 +243,7 @@ n: It's also possible to place a command inside the text, so that it could be ex
 John: Shake[spawn ShakePrinter] it!
 
 @save
-@stopBgm  wait:false time:10
+@stopBgm  fade:10 wait:false
 @bgm Wind fade:10 wait:false
 @char k.Default
 k: By the way, are there other ways to output the text? Like, if I want to print a whole paragraph — it won't even fit this window.
@@ -260,6 +260,7 @@ n: Use <b>@printer</b> command to switch printers. There are several built-in on
 # FullscreenPrinter
 @hideChars wait:false
 @printer Fullscreen
+@resetText  wait:false
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, turpis id porttitor maximus, mi tellus tempus justo, sit amet porttitor lorem velit vitae libero. Nunc dapibus maximus molestie. Etiam luctus arcu in lorem tristique tristique. Vestibulum tincidunt eget ante eget sodales.[i][br][br]Proin convallis purus mi, sit amet egestas nibh suscipit vitae. Praesent tempor lectus ex, at vehicula arcu condimentum vel. Vestibulum eu fermentum odio, eleifend euismod nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.[i][br][br]Duis eu pellentesque magna, ut molestie eros. Integer iaculis accumsan nisl, vel rutrum enim bibendum non. Sed dui ipsum, sodales ut rutrum ac, elementum ac lectus. 
 @hidePrinter 
 @goto .PrinterChoice
@@ -283,7 +284,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, turpis id po
 @char k wait:false
 @arrange 
 @printer Wide
-@stopBgm  wait:false time:3
+@stopBgm  fade:3 wait:false
 @bgm CloudNine fade:3 wait:false
 k: Okay, and what about making those windows something more than just boring rectangles?
 n: Sure, you can modify them any way you want.
@@ -343,7 +344,7 @@ n: Add background assets the same way you've added characters and use <b>@back</
 @arrange 
 
 @save
-n: You can also specify a transition effect to use when switching backgrounds. Aside from default cross-fade, there are a total of 23 different background transition effects available right now.[i] Here are some of them.
+n: You can also specify a transition effect to use when switching backgrounds. Aside from default cross-fade, there are a total of 23 different transition effects available out of the box and an option to add custom ones.[i] Here are some of them.
 
 # TransitionsChoice
 @hidePrinter 
@@ -410,7 +411,7 @@ n: You can also specify a transition effect to use when switching backgrounds. A
 # TransitionsEnd
 @char k wait:false
 @char n wait:false
-@stopBgm  wait:false time:10
+@stopBgm  fade:10 wait:false
 k: Hm, but all those backgrounds, they look a bit...[wait 0.7] flat?
 n: Well, they are sprite backgrounds, after all.[i] Just like characters, backgrounds can be based on multiple implementations: sprites, animated objects, videos and even full-fledged Unity scenes.
 @char k.Surprise wait:false
@@ -452,20 +453,20 @@ n: The music will loop by default, though you can change this, as well as volume
 
 # BgmCloudNine
 @hidePrinter 
-@stopBgm  wait:false time:1
+@stopBgm  fade:1 wait:false
 @bgm CloudNine fade:1 wait:false
 @wait 3
 @goto .BgmChoice
 
 # BgmJellyRolls
 @hidePrinter 
-@stopBgm  wait:false time:1
+@stopBgm  fade:1 wait:false
 @bgm JellyRolls fade:1 wait:false
 @wait 3
 @goto .BgmChoice
 
 # EndBgm
-@stopBgm  wait:false time:1
+@stopBgm  fade:1 wait:false
 @char k.Default wait:false
 n: On the contrary, sound effects won't loop by default.[skipInput]
 
