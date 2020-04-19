@@ -19,4 +19,6 @@ MonoBehaviour:
   EnableBuildProcessing: 1
   UseAddressables: 1
   AutoBuildBundles: 1
+  ExtraLabels: []
   LocalRootPath: Resources
+  ProjectRootPath: Naninovel

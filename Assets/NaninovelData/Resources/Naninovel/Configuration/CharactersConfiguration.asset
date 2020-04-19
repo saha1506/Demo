@@ -47,6 +47,7 @@ MonoBehaviour:
     HighlightDuration: 0.35
     HighlightEasing: 1
     MessageSound: 
+    ClipMessageSound: 1
     LinkedPrinter: 
     Poses: []
   Metadata:
@@ -83,6 +84,7 @@ MonoBehaviour:
       HighlightDuration: 0.35
       HighlightEasing: 1
       MessageSound: 
+      ClipMessageSound: 1
       LinkedPrinter: 
       Poses: []
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
@@ -113,6 +115,7 @@ MonoBehaviour:
       HighlightDuration: 0.35
       HighlightEasing: 1
       MessageSound: 
+      ClipMessageSound: 1
       LinkedPrinter: 
       Poses: []
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
@@ -143,6 +146,7 @@ MonoBehaviour:
       HighlightDuration: 0.35
       HighlightEasing: 1
       MessageSound: 
+      ClipMessageSound: 1
       LinkedPrinter: 
       Poses: []
   AvatarLoader:

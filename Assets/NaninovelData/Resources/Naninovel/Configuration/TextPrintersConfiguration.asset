@@ -41,6 +41,7 @@ MonoBehaviour:
     AutoDefault: 1
     AutoWait: 1
     AutoLineBreak: 0
+    ChangeVisibilityDuration: 0.3
   Metadata:
     ids:
     - Dialogue
@@ -73,6 +74,7 @@ MonoBehaviour:
       AutoDefault: 1
       AutoWait: 1
       AutoLineBreak: 0
+      ChangeVisibilityDuration: 0.3
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -92,6 +94,7 @@ MonoBehaviour:
       AutoDefault: 1
       AutoWait: 1
       AutoLineBreak: 2
+      ChangeVisibilityDuration: 0.3
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -111,6 +114,7 @@ MonoBehaviour:
       AutoDefault: 1
       AutoWait: 1
       AutoLineBreak: 0
+      ChangeVisibilityDuration: 0.3
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -130,6 +134,7 @@ MonoBehaviour:
       AutoDefault: 1
       AutoWait: 1
       AutoLineBreak: 0
+      ChangeVisibilityDuration: 0.3
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -149,6 +154,7 @@ MonoBehaviour:
       AutoDefault: 1
       AutoWait: 1
       AutoLineBreak: 0
+      ChangeVisibilityDuration: 0.3
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -168,6 +174,7 @@ MonoBehaviour:
       AutoDefault: 1
       AutoWait: 1
       AutoLineBreak: 0
+      ChangeVisibilityDuration: 0.3
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -187,6 +194,7 @@ MonoBehaviour:
       AutoDefault: 1
       AutoWait: 1
       AutoLineBreak: 2
+      ChangeVisibilityDuration: 0.3
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -206,6 +214,7 @@ MonoBehaviour:
       AutoDefault: 1
       AutoWait: 1
       AutoLineBreak: 0
+      ChangeVisibilityDuration: 0.3
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -225,6 +234,7 @@ MonoBehaviour:
       AutoDefault: 1
       AutoWait: 1
       AutoLineBreak: 0
+      ChangeVisibilityDuration: 0.3
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -244,3 +254,4 @@ MonoBehaviour:
       AutoDefault: 1
       AutoWait: 1
       AutoLineBreak: 0
+      ChangeVisibilityDuration: 0.3

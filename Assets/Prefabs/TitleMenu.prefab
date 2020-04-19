@@ -406,8 +406,8 @@ MonoBehaviour:
   controlOpacity: 1
   fadeTime: 0.3
   ignoreTimeScale: 1
-  focusObject: {fileID: 0}
-  focusMode: 0
+  focusObject: {fileID: 1561638094064900}
+  focusMode: 1
   onShow:
     m_PersistentCalls:
       m_Calls: []

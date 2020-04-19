@@ -21,7 +21,6 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   SkipOnInput: 1
   SkipFrames: 1
-  AspectRatio: 2
   FadeDuration: 1
   CustomFadeTexture: {fileID: 0}
   PlayIntroMovie: 0

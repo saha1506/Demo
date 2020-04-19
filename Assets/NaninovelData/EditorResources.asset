@@ -1,4 +1,4 @@
-%YAML 1.1
+﻿%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -125,15 +125,15 @@ MonoBehaviour:
     - Name: k/Default
       PathPrefix: CharacterAvatars
       Guid: aa67a15d0c4c57a4db3d29e6bc7517ea
-  - Id: Naninovel/ChoiceHandlers/28f2af47-70b1-467e-839d-d0ede19a0c6a
+  - Id: ChoiceHandlers/28f2af47-70b1-467e-839d-d0ede19a0c6a
     Resources:
     - Name: ButtonList
-      PathPrefix: Naninovel/ChoiceHandlers
+      PathPrefix: ChoiceHandlers
       Guid: 1f6aa29000e839c409e6a9c0704adc96
-  - Id: Naninovel/ChoiceHandlers/2ce787d1-2b2c-4499-86b7-446fb68b9536
+  - Id: ChoiceHandlers/2ce787d1-2b2c-4499-86b7-446fb68b9536
     Resources:
     - Name: ButtonArea
-      PathPrefix: Naninovel/ChoiceHandlers
+      PathPrefix: ChoiceHandlers
       Guid: 4fa6d62f894ae6e4698bfa8af59e7942
   - Id: Spawn
     Resources:
@@ -169,49 +169,52 @@ MonoBehaviour:
       Guid: c4bf810b9b6cc9f44a58fd670678ded4
   - Id: UI
     Resources:
+    - Name: BacklogUI
+      PathPrefix: UI
+      Guid: 7fba909c66b25324cb77db18679c2c96
+    - Name: CGGalleryUI
+      PathPrefix: UI
+      Guid: 71da50c8dae82bd42ba67528804e820c
     - Name: ClickThroughPanel
       PathPrefix: UI
       Guid: 702c32b2de0c0784b9a66ec90601874f
-    - Name: IBacklogUI
-      PathPrefix: UI
-      Guid: 7fba909c66b25324cb77db18679c2c96
-    - Name: ICGGalleryUI
-      PathPrefix: UI
-      Guid: 71da50c8dae82bd42ba67528804e820c
-    - Name: IConfirmationUI
+    - Name: ConfirmationUI
       PathPrefix: UI
       Guid: 88d03f19bcbff914ba33a7c9895e2d7c
-    - Name: IContinueInputUI
+    - Name: ContinueInputUI
       PathPrefix: UI
       Guid: 1add671f8348e8443bcc56290e82fc5e
-    - Name: IExternalScriptsUI
+    - Name: ExternalScriptsUI
       PathPrefix: UI
       Guid: 671ceb4f549ddf046913d7debf113469
-    - Name: ILoadingUI
+    - Name: LoadingUI
       PathPrefix: UI
       Guid: 53aad00e5cf184e458adb001c550518a
-    - Name: IMovieUI
+    - Name: MovieUI
       PathPrefix: UI
       Guid: f9a211517d1cb1a44964dc2254463049
-    - Name: IRollbackUI
+    - Name: PauseUI
+      PathPrefix: UI
+      Guid: 480f5db62ea305c46b89a86496d2a0c9
+    - Name: RollbackUI
       PathPrefix: UI
       Guid: a32c73a3aff4b274c85b3ff16c854b07
-    - Name: ISaveLoadUI
+    - Name: SaveLoadUI
       PathPrefix: UI
       Guid: 8d53726b3d08433479398f02b4780e7f
-    - Name: ISceneTransitionUI
+    - Name: SceneTransitionUI
       PathPrefix: UI
       Guid: e3b234b4273b7f64ab3f1d9fe425ed23
-    - Name: ISettingsUI
+    - Name: SettingsUI
       PathPrefix: UI
       Guid: 65c37f59e9b266f468dd5381fdc03fc3
-    - Name: ITipsUI
+    - Name: TipsUI
       PathPrefix: UI
       Guid: f5aae572225ee1b4c96d1a17fc5cb073
-    - Name: ITitleUI
+    - Name: TitleUI
       PathPrefix: UI
       Guid: 7810d70ea031ab2448f5407e6161a368
-    - Name: IVariableInputUI
+    - Name: VariableInputUI
       PathPrefix: UI
       Guid: bb95f484e341dcd4391a572f22b7d067
   - Id: TextPrinters/a2f98ea1-85e9-44f3-879e-277f78e202b5

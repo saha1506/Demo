@@ -34,7 +34,7 @@ MonoBehaviour:
     - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: Naninovel/ChoiceHandlers
+        PathPrefix: ChoiceHandlers
         ProviderTypes:
         - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
@@ -44,7 +44,7 @@ MonoBehaviour:
     - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: Naninovel/ChoiceHandlers
+        PathPrefix: ChoiceHandlers
         ProviderTypes:
         - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
