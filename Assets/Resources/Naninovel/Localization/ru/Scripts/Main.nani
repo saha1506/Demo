@@ -29,25 +29,32 @@ n: Например, вот содержание скрипта, который 
 
 # fc32e36b
 ; n: After you've created a novel script, add it to the project resources. For this, open scripts manager using Naninovel context menu and drag-drop script asset to the list.
-n: После того
+n: После того, как скрипт создан, его необходимо добавить в ресурсы проекта. Для этого откройте менеджер скриптов и добавьте скрипт в список.
 
 # 92b36ed0
 ; n: Now, open the script in a text editor.[i][char b.HelloWorld transition:Ripple time:1 pos:{pos} wait:false] Let's start with showing a simple text. Simply type the text you wish to show, like this.[i] Enter play mode and start new game to see the result.[skipInput]
+n: Теперь откройте скрипт в редакторе.[i][char b.HelloWorld transition:Ripple time:1 pos:{pos} wait:false] Для начала выведем текст. Просто наберите текст, который должен быть показан.[i] Войдите в режим игры и начните новую игру, чтобы увидеть результат.[skipInput]
 
 # f7cc44f9
 ; @choice "Hello World!" goto:.Hello
+@choice "Привет Мир!" goto:.Hello
 
 # 2608be0
 ; Hello World!
+Привет Мир!
 
 # 321585db
 ; n: Easy, right?[i][char b.Name transition:Ripple time:1 pos:{pos} wait:false] To associate shown text with a character, just add its name followed by a colon before the text.[skipInput]
+n: Легко, не правда ли?[i][char b.Name transition:Ripple time:1 pos:{pos} wait:false] Чтобы ассоциировать текст с персонажем, добавьте его имя перед репликой и двоеточием.[skipInput]
 
 # 6fbebb9
 ; @choice "John: Hello World!" goto:.John
+@choice "Вася: Привет Мир!" goto:.John
 
 # 968f6d9f
 ; John: Hello World!
+Вася: Привет Мир!
+На этом пример локализации заканчивается. Следующий текст будет выводиться без перевода.
 
 # 1c96ad04
 ; n: Now, let's add a <b>character</b> on scene.[i] Characters in Naninovel can be based on regular and diced sprites, animated Live2D models and 3D meshes; you can add your own implementations as well.[i] To keep it simple, let's use a regular sprite implementation for now.
