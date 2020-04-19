@@ -42,14 +42,10 @@ n: Shall we get started then?
 
 @char n pos:50,-10 time:0
 
-n: Imagine you've imported Naninovel package to your Unity project.[i][char b.CreateScript transition:Ripple time:1 pos:{pos} wait:false][char n pos:80 time:0.5 wait:false] For starters, create a <b>novel script</b>.[i] Novel scripts are text documents where you control what happens on scenes.[i] Open them with a text editor of your choice, like Notepad, Word or Sublime.
+n: Imagine you've imported Naninovel package to your Unity project.[i][char b.CreateScript transition:Ripple time:1 pos:{pos} wait:false][char n pos:80 time:0.5 wait:false] For starters, create a <b>naninovel script</b>.[i] Naninovel scripts are text documents where you control what happens on scenes.[i] Open them with a text editor of your choice, like Notepad, Word or Atom.
 
 @char b.OpenScript transition:Ripple time:1 wait:false
-n: For example, here is the contents of a novel script used for this demo so far.[i] Don't worry if it looks complicated, I'll show how it works step by step a bit later.
-
-@char b.AddScript transition:Ripple time:1 wait:false
-
-n: After you've created a novel script, add it to the project resources. For this, open scripts manager using Naninovel context menu and drag-drop script asset to the list.
+n: For example, here is the contents of a naninovel script used for this demo so far.[i] Don't worry if it looks complicated, I'll show how it works step by step a bit later.
 
 @hide b wait:false
 n: Now, open the script in a text editor.[i][char b.HelloWorld transition:Ripple time:1 pos:{pos} wait:false] Let's start with showing a simple text. Simply type the text you wish to show, like this.[i] Enter play mode and start new game to see the result.[skipInput]
@@ -73,13 +69,13 @@ John: Hello World!
 n: Now, let's add a <b>character</b> on scene.[i] Characters in Naninovel can be based on regular and diced sprites, animated Live2D models and 3D meshes; you can add your own implementations as well.[i] To keep it simple, let's use a regular sprite implementation for now.
 
 @char b.AddCharacter transition:Ripple time:1 pos:{pos} wait:false
-n: Using Naninovel context menu, open characters manager and add a new character record specifying its name. Double click the record to open settings, where you can select the implementation, add appearance assets and tweak other settings.
+n: Using Naninovel editor menu, open characters manager and add a new character record specifying its name. Double click the record to open settings, where you can select the implementation, add appearance assets and tweak other settings.
 
 @save
 @hide b wait:false
 @stopBgm  fade:5 wait:false
 @bgm Wind fade:5 wait:false
-n: Alright, it's time to summon Kohaku-chan on scene![i][char b.ShowCharacter transition:Ripple time:1 pos:{pos} wait:false] Type the following expression in the novel script and run the game.[skipInput]
+n: Alright, it's time to summon Kohaku-chan on scene![i][char b.ShowCharacter transition:Ripple time:1 pos:{pos} wait:false] Type the following expression in the naninovel script and run the game.[skipInput]
 
 @choice "@char Kohaku" goto:.Kohaku
 @stop
@@ -129,7 +125,7 @@ n: No, stop! My ears...
 @arrange k.15,n.25
 @sfx Paper
 @spawn ShakeCharacter params:n,2,0.3,0,0.5,0
-n: You have to do something, use novel script![skipInput]
+n: You have to do something, use naninovel script![skipInput]
 
 @set triedMoving=false
 @set triedAngry=false
@@ -177,7 +173,7 @@ n.Confidence: That's it! You've removed her from the scene!
 @bgm Wind fade:1 wait:false
 n: Guess we should have called someone else[sfx Glitter volume:0.25][spawn DigitalGlitch params:0.1] instead...
 n.Default: Wait, did you hear[sfx Glitter volume:0.5][spawn DigitalGlitch params:0.25] that?
-n.Surprise: No way...[i] She's hacking[sfx Glitter][sfx Bubbles volume:0.5][spawn DigitalGlitch] through![i] They don't call her <b>Unity-chan</b> for nothing!
+n.Surprise: No way...[i] She's hacking[sfx Glitter][sfx Bubbles volume:0.5][spawn DigitalGlitch] through![i] They don't call her <b>Unity</b>-chan for nothing!
 @sfx Bubbles
 @spawn DigitalGlitch params:2.5,1.5 wait:false
 @sfx Glitter
@@ -207,7 +203,6 @@ n.Surprise: No way...[i] She's hacking[sfx Glitter][sfx Bubbles volume:0.5][spaw
 @char n.Surprise
 @char n.Pain wait:false
 @spawn ShakeCharacter params:n,5,0.15,,0.25,,true,false
-@char n.Pain wait:false
 @char n.Surprise
 @set shakeCount++
 @goto .ShakeLoop if:shakeCount<3
@@ -240,7 +235,7 @@ k.Confidence: Yep, similar to the one you've used for shaking text window.[i] Wa
 @goto .FXChoice
 
 # Enough
-n: And of course you can add your own custom effects. It's as easy as dropping a prefab with the effect to a special folder; then just use <b>@spawn</b> command followed by the prefab name to activate it.
+n: And of course you can add your own custom effects. It's as easy as dropping a prefab with the effect to spawn resources list; then use <b>@spawn</b> command followed by the prefab name to activate it.
 n: It's also possible to place a command inside the text, so that it could be executed at the right moment. Like this.[skipInput]
 
 @choice "John: Shake[spawn ShakePrinter] it!" goto:.JohnShake
