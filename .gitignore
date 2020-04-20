@@ -6,7 +6,7 @@
 .gradle*
 /Assets/AssetStoreTools*
 /Assets/StreamingAssets*
-/Assets/ThirdParty/*
+/Assets/ThirdParty/Naninovel*
 /Assets/NaninovelData/Saves*
 /Photoshop*
 
