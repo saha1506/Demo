@@ -121,8 +121,8 @@ n: Легко, не правда ли?[i][char b.Name transition:Ripple time:1 p
 # b50a263
 ; n.Default: Wait, did you hear[sfx Glitter volume:0.5][spawn DigitalGlitch params:0.25] that?
 
-# e527b179
-; n.Surprise: No way...[i] She's hacking[sfx Glitter][sfx Bubbles volume:0.5][spawn DigitalGlitch] through![i] They don't call her <b>Unity-chan</b> for nothing!
+# 81f0131d
+; n.Surprise: No way...[i] She's hacking[sfx Glitter][sfx Bubbles volume:0.5][spawn DigitalGlitch] through![i] They don't call her <b>Unity</b>-chan for nothing!
 
 # 25cb4c34
 ; k.Confidence: That's what I call happiness overdose!
@@ -145,8 +145,8 @@ n: Легко, не правда ли?[i][char b.Name transition:Ripple time:1 p
 # e1fd0ffb
 ; @choice "That's enough" goto:.Enough
 
-# 6afdea53
-; n: And of course you can add your own custom effects. It's as easy as dropping a prefab with the effect to a special folder; then just use <b>@spawn</b> command followed by the prefab name to activate it.
+# 499260d6
+; n: And of course you can add your own custom effects. It's as easy as dropping a prefab with the effect to spawn resources list; then use <b>@spawn</b> command followed by the prefab name to activate it.
 
 # a44e57f2
 ; n: It's also possible to place a command inside the text, so that it could be executed at the right moment. Like this.[skipInput]
