@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -117,6 +117,9 @@ MonoBehaviour:
     - Name: Main
       PathPrefix: Scripts
       Guid: 33fe60f5ce03a5a498f2eab673f24f90
+    - Name: Title
+      PathPrefix: Scripts
+      Guid: f87fcc1487972b04baf0b1236d0f5126
   - Id: CharacterAvatars
     Resources:
     - Name: n/Default
