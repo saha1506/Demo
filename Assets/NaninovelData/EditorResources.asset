@@ -117,9 +117,6 @@ MonoBehaviour:
     - Name: Main
       PathPrefix: Scripts
       Guid: 33fe60f5ce03a5a498f2eab673f24f90
-    - Name: Title
-      PathPrefix: Scripts
-      Guid: f87fcc1487972b04baf0b1236d0f5126
   - Id: CharacterAvatars
     Resources:
     - Name: n/Default
