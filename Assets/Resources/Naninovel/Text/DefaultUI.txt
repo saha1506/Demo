@@ -1,7 +1,4 @@
 VariableInput.Submit: SUBMIT
-SettingsMenu.VolumeVoice: Voice volume:
-SettingsMenu.VolumeMusic: Music volume:
-SettingsMenu.VolumeMaster: Master volume:
 SettingsMenu.VolumeEffects: Effects volume:
 SettingsMenu.Tab.Text: TEXT
 SettingsMenu.Tab.Sound: SOUND
@@ -20,6 +17,10 @@ SettingsMenu.AutoDelay: Auto delay:
 SaveLoadMenu.Tab.Save: SAVE
 SaveLoadMenu.Tab.QuickLoad: Q. LOAD
 SaveLoadMenu.Tab.Load: LOAD
+Naninovel.UI.GameSettingsFontSizeDropdown.Default: Default
+Naninovel.UI.GameSettingsFontSizeDropdown.ExtraLarge: Extra Large
+Naninovel.UI.GameSettingsFontSizeDropdown.Large: Large
+Naninovel.UI.GameSettingsFontSizeDropdown.Small: Small
 Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: Are you sure you want to overwrite save slot?
 Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: Are you sure you want to delete save slot?
 Naninovel.UI.GameStateSlot.EmptySlotLabel: Empty
@@ -29,8 +30,6 @@ Naninovel.UI.GameSettingsScreenModeDropdown.Windowed: Windowed
 Naninovel.UI.GameSettingsScreenModeDropdown.MaximizedWindow: Maximized Window
 Naninovel.UI.GameSettingsScreenModeDropdown.FullScreenWindow: Full Screen Window
 Naninovel.UI.GameSettingsScreenModeDropdown.ExclusiveFullScreen: Full Screen
-Naninovel.UI.GameSettingsFontSizeSlider.RestartMessage: Please restart the game to revert to the original font size.
-Naninovel.UI.GameSettingsFontDropdown.RestartMessage: Please restart the game to revert to the original font.
 Naninovel.UI.ControlPanelTitleButton.ConfirmationMessage: Are you sure you want to quit to the title screen? Any unsaved game progress will be lost.
 General.Return: RETURN
 General.Close: CLOSE
@@ -52,4 +51,7 @@ Confirmation.No: NO
 TitleMenu.Continue: CONTINUE
 TitleMenu.Exit: EXIT
 TitleMenu.Settings: SETTINGS
+SettingsMenu.VolumeMaster: Master volume:
+SettingsMenu.VolumeMusic: Music volume:
+SettingsMenu.VolumeVoice: Voice volume:
 CGGallery.Title: CG GALLERY
