@@ -1,4 +1,4 @@
-; Localization script for `Main`
+; English <en> to Русский <ru> localization document for `Main` naninovel script
 
 # 7db6f932
 ; ...
@@ -142,6 +142,15 @@ n: Легко, не правда ли?[i][char b.Name transition:Ripple time:1 p
 # 2c79c04d
 ; @choice "@spawn ShakePrinter" goto:.Shake
 
+# 5d34de11
+; @choice "@spawn Rain" goto:.Rain
+
+# a9430901
+; @choice "@spawn Snow" goto:.Snow
+
+# 822dc7b
+; @choice "@spawn Blur" goto:.Blur
+
 # e1fd0ffb
 ; @choice "That's enough" goto:.Enough
 
@@ -175,6 +184,9 @@ n: Легко, не правда ли?[i][char b.Name transition:Ripple time:1 p
 # 7a944a3d
 ; @choice "@printer Wide" goto:.WidePrinter
 
+# 27073568
+; @choice "@printer Bubble" goto:.BubblePrinter
+
 # a2ac7cbf
 ; @choice "Ok, I've got it!" goto:.EndPrinter
 
@@ -183,6 +195,9 @@ n: Легко, не правда ли?[i][char b.Name transition:Ripple time:1 p
 
 # e3f7a758
 ; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, turpis id porttitor maximus, mi tellus tempus justo, sit amet porttitor lorem velit vitae libero. Vestibulum tincidunt eget ante eget sodales.[i][br][br]Proin convallis purus mi, sit amet egestas nibh suscipit vitae. Praesent tempor lectus ex, at vehicula arcu condimentum vel. Vestibulum eu fermentum odio, eleifend euismod nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.[i][br][br]Duis eu pellentesque magna, ut molestie eros. Integer iaculis accumsan nisl, vel rutrum enim bibendum non. Sed dui ipsum, sodales ut rutrum ac, elementum ac lectus. 
+
+# 7abbec2f
+; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, turpis id porttitor maximus, mi tellus tempus justo, sit amet porttitor lorem velit vitae libero. Vestibulum tincidunt eget ante eget sodales.
 
 # 7abbec2f
 ; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, turpis id porttitor maximus, mi tellus tempus justo, sit amet porttitor lorem velit vitae libero. Vestibulum tincidunt eget ante eget sodales.

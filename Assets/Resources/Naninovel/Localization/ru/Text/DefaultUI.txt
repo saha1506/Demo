@@ -1,55 +1,67 @@
-﻿VariableInput.Submit: ВВОД
-SettingsMenu.VolumeVoice: Голос:
-SettingsMenu.VolumeMusic: Музыка:
-SettingsMenu.VolumeMaster: Общий:
-SettingsMenu.VolumeEffects: Эффекты:
-SettingsMenu.Tab.Text: ТЕКСТ
-SettingsMenu.Tab.Sound: ЗВУК
-SettingsMenu.Tab.Basic: БАЗОВЫЕ
-SettingsMenu.SkipMode: Пропускать:
-SettingsMenu.ScreenMode: Режим экрана:
-SettingsMenu.Resolution: Разрешение:
-SettingsMenu.PreviewText: Шла Саша по шоссе и сосала сушку. Дело было в сентябре, было ей не скушно. Шла она уже полдня, очень торопилась. Сушку есть было нельзя, саша очень злилась.
-SettingsMenu.Preview: Превью
-SettingsMenu.MessageSpeed: Скорость печати:
-SettingsMenu.Language: Язык:
-SettingsMenu.Graphics: Графика:
-SettingsMenu.FontSize: Размер:
-SettingsMenu.Font: Шрифт:
-SettingsMenu.AutoDelay: Задержка:
-SaveLoadMenu.Tab.Save: СОХРАНИТЬ
-SaveLoadMenu.Tab.QuickLoad: Б. ЗАГРУЗКА
-SaveLoadMenu.Tab.Load: ЗАГРУЗКА
-Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: Вы уверены, что хотите перезаписать слот сохранения?
-Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: Вы уверены, что хотите удалить слот сохранения?
-Naninovel.UI.GameStateSlot.EmptySlotLabel: Пусто
-Naninovel.UI.GameSettingsSkipModeDropdown.ReadOnly: Прочитанное
-Naninovel.UI.GameSettingsSkipModeDropdown.Everything: Всё
-Naninovel.UI.GameSettingsScreenModeDropdown.Windowed: Окно
-Naninovel.UI.GameSettingsScreenModeDropdown.MaximizedWindow: Расширенное Окно
-Naninovel.UI.GameSettingsScreenModeDropdown.FullScreenWindow: Полноэкранное Окно
-Naninovel.UI.GameSettingsScreenModeDropdown.ExclusiveFullScreen: Полный Экран
-Naninovel.UI.GameSettingsFontSizeSlider.RestartMessage: Перезапустите игру, чтобы изменения вступили в силу.
-Naninovel.UI.GameSettingsFontDropdown.RestartMessage: Перезапустите игру, чтобы изменения вступили в силу.
-Naninovel.UI.ControlPanelTitleButton.ConfirmationMessage: Вы точно хотите выйти? Несохраненный прогресс будет утерян.
-General.Return: НАЗАД
-General.Close: ЗАКРЫТЬ
-ExternalScriptsBrowser.Title: ВНЕШНИЕ СКРИПТЫ
-ExternalScriptsBrowser.Info: Выберите скрипт
-ControlPanel.Title: МЕНЮ
-ControlPanel.Tips: TIPS
-ControlPanel.Skip: ПРОПУСК
-ControlPanel.Settings: НАСТРОЙКИ
-ControlPanel.Save: СОХРАНИТЬ
-ControlPanel.QuickSave: Б.СОХР
-ControlPanel.QuickLoad: Б.ЗАГР
-ControlPanel.Log: ЛОГ
-ControlPanel.Load: ЗАГРУЗИТЬ
-ControlPanel.Hide: СКРЫТЬ
-ControlPanel.Auto: АВТО
-Confirmation.Yes: ДА
+; English <en> to Русский <ru> localization document for `DefaultUI` managed text document
+
+CGGallery.Title: КАРТИНОЧКИ
 Confirmation.No: НЕТ
+Confirmation.Yes: ДА
+ControlPanel.Auto: АВТО
+ControlPanel.Hide: СКРЫТЬ
+ControlPanel.Load: ЗАГРУЗИТЬ
+ControlPanel.Log: ЛОГ
+ControlPanel.QuickLoad: Б.ЗАГР
+ControlPanel.QuickSave: Б.СОХР
+ControlPanel.Save: СОХРАНИТЬ
+ControlPanel.Settings: НАСТРОЙКИ
+ControlPanel.Skip: ПРОПУСК
+ControlPanel.Tips: ЗАМЕТКИ
+ControlPanel.Title: МЕНЮ
+ExternalScriptsBrowser.Info: Выберите скрипт
+ExternalScriptsBrowser.Title: ВНЕШНИЕ СКРИПТЫ
+General.Close: ЗАКРЫТЬ
+General.Return: НАЗАД
+Naninovel.UI.ControlPanelTitleButton.ConfirmationMessage: Вы точно хотите выйти? Несохраненный прогресс будет утерян.
+Naninovel.UI.GameSettingsFontDropdown.DefaultFontName: Стандарт
+Naninovel.UI.GameSettingsFontSizeDropdown.Default: Стандарт
+Naninovel.UI.GameSettingsFontSizeDropdown.ExtraLarge: Очень крупный
+Naninovel.UI.GameSettingsFontSizeDropdown.Large: Крупный
+Naninovel.UI.GameSettingsFontSizeDropdown.Small: Мелкий
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption1: Очень низкое
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption2: Низкое
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption3: Среднее
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption4: Высокое
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption5: Очень высокое
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption6: Ультра
+Naninovel.UI.GameSettingsScreenModeDropdown.ExclusiveFullScreen: Полный Экран
+Naninovel.UI.GameSettingsScreenModeDropdown.FullScreenWindow: Полноэкранное Окно
+Naninovel.UI.GameSettingsScreenModeDropdown.MaximizedWindow: Расширенное Окно
+Naninovel.UI.GameSettingsScreenModeDropdown.Windowed: Окно
+Naninovel.UI.GameSettingsSkipModeDropdown.Everything: Всё
+Naninovel.UI.GameSettingsSkipModeDropdown.ReadOnly: Прочитанное
+Naninovel.UI.GameStateSlot.EmptySlotLabel: Пусто
+Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: Вы уверены, что хотите удалить слот сохранения?
+Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: Вы уверены, что хотите перезаписать слот сохранения?
+SaveLoadMenu.Tab.Load: ЗАГРУЗКА
+SaveLoadMenu.Tab.QuickLoad: Б. ЗАГРУЗКА
+SaveLoadMenu.Tab.Save: СОХРАНИТЬ
+SettingsMenu.AutoDelay: Задержка:
+SettingsMenu.Font: Шрифт:
+SettingsMenu.FontSize: Размер:
+SettingsMenu.Graphics: Графика:
+SettingsMenu.Language: Язык:
+SettingsMenu.MessageSpeed: Скорость печати:
+SettingsMenu.Preview: Превью
+SettingsMenu.PreviewText: Шла Саша по шоссе и сосала сушку. Дело было в сентябре, было ей не скушно. Шла она уже полдня, очень торопилась. Сушку есть было нельзя, саша очень злилась.
+SettingsMenu.Resolution: Разрешение:
+SettingsMenu.ScreenMode: Режим экрана:
+SettingsMenu.SkipMode: Пропускать:
+SettingsMenu.Tab.Basic: БАЗОВЫЕ
+SettingsMenu.Tab.Sound: ЗВУК
+SettingsMenu.Tab.Text: ТЕКСТ
+SettingsMenu.VoiceLanguage: Язык озвучки:
+SettingsMenu.VolumeEffects: Эффекты:
+SettingsMenu.VolumeMaster: Общий:
+SettingsMenu.VolumeMusic: Музыка:
+SettingsMenu.VolumeVoice: Голос:
 TitleMenu.Continue: ПРОДОЛЖИТЬ
 TitleMenu.Exit: ВЫХОД
 TitleMenu.Settings: НАСТРОЙКИ
-CGGallery.Title: КАРТИНОЧКИ
+VariableInput.Submit: ВВОД
