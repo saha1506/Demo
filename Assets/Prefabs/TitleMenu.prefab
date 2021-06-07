@@ -750,7 +750,7 @@ GameObject:
   - component: {fileID: 3243728799161576623}
   - component: {fileID: 1719975081068152518}
   - component: {fileID: 4381826063775437620}
-  - component: {fileID: 3314132062009879426}
+  - component: {fileID: 7533999777204627495}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -857,7 +857,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1719975081068152518}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7533999777204627495}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   labelText: {fileID: 2402435450807027020}
   labelColors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -867,7 +878,7 @@ MonoBehaviour:
     m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
---- !u!114 &3314132062009879426
+--- !u!114 &7533999777204627495
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -876,22 +887,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 560686870302672242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3c1517a96111b049a76c7e2bf74c370, type: 3}
+  m_Script: {fileID: 11500000, guid: 5975c9748a52c8d43b34c8d7c428cacd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableInteraction: 0
-  visibleOnAwake: 1
-  controlOpacity: 1
-  fadeTime: 0.3
-  ignoreTimeScale: 1
-  focusObject: {fileID: 0}
-  focusMode: 0
-  onShow:
-    m_PersistentCalls:
-      m_Calls: []
-  onHide:
-    m_PersistentCalls:
-      m_Calls: []
+  scriptName: 
+  scriptText: '@openURL "https://naninovel.com"'
+  playOnAwake: 0
 --- !u!1 &3031719802093149438
 GameObject:
   m_ObjectHideFlags: 0
