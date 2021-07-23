@@ -328,7 +328,7 @@ k: .[wait 0.5][spawn ShakePrinter] .[wait 0.5][spawn ShakePrinter] .[spawn Shake
 @style default
 @wait 1
 
-@printer Pimped
+@printer CustomPrinter
 
 k.Happy: Ta-daa~!
 @despawn Blur params:0.5 wait:false
@@ -339,25 +339,25 @@ k.Surprise: What, you don't like cats?
 @char n look:left
 n.Happy: It's complicated...
 
-@choice "Keep the printer" goto:.PimpedKept
-@choice "Revert to default" goto:.PimpedChanged
+@choice "Keep the printer" goto:.CustomPrinterKept
+@choice "Revert to default" goto:.CustomPrinterChanged
 @stop
 
-# PimpedKept
+# CustomPrinterKept
 @char n.Default wait:false
 @char k.Happy
 n: Whatever...
-@goto .PimpedOut
+@goto .CustomPrinterOut
 
-# PimpedChanged
+# CustomPrinterChanged
 @printer Wide
 @char n.Default wait:false
 @char k.Angry wait:false
 @arrange 
 k: Boring!
-@goto .PimpedOut
+@goto .CustomPrinterOut
 
-# PimpedOut
+# CustomPrinterOut
 n: Guess we should defuse the situation. How about changing a background?
 k.Default: Yeah, I would like some fresh air.
 n: Add background assets the same way you've added characters and use <b>@back</b> command to switch them.
