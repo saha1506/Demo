@@ -297,6 +297,6 @@ MonoBehaviour:
       guid: 18cfa78b5fc89b745ba69d51a6a8629a
   - Id: TextPrinters/b3b6d2cf-fbc0-40e4-b27d-3891d1295e18
     Resources:
-    - name: Pimped
+    - name: CustomPrinter
       pathPrefix: TextPrinters
       guid: 59f926edd95e3dd42985fe1d4c09819c
