@@ -220,11 +220,6 @@ MonoBehaviour:
     - name: VariableInputUI
       pathPrefix: UI
       guid: bb95f484e341dcd4391a572f22b7d067
-  - Id: TextPrinters/a2f98ea1-85e9-44f3-879e-277f78e202b5
-    Resources:
-    - name: Pimped
-      pathPrefix: TextPrinters
-      guid: 59f926edd95e3dd42985fe1d4c09819c
   - Id: TextPrinters/a4f7adac-aa13-4ca3-9815-f042af0baea7
     Resources:
     - name: Dialogue
