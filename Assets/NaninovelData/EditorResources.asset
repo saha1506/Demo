@@ -101,6 +101,9 @@ MonoBehaviour:
       guid: dd69ddc5ebbead641a667a45dc4b86fa
   - Id: Backgrounds/ac3eb478-0bdb-4ff8-a6eb-6bd98cc1bc09
     Resources:
+    - name: Title
+      pathPrefix: Backgrounds/MainBackground
+      guid: ced47ae81be00234f8a9447cd11cfaa1
     - name: Desert
       pathPrefix: Backgrounds/MainBackground
       guid: 2507f9e1467df384e841be5680fe39af
@@ -114,6 +117,9 @@ MonoBehaviour:
       guid: 69523308f51fa0648b0a6a7618b833cd
   - Id: Scripts
     Resources:
+    - name: Title
+      pathPrefix: Scripts
+      guid: 42923f6b940233e4eaba9054c7a546ed
     - name: Main
       pathPrefix: Scripts
       guid: 33fe60f5ce03a5a498f2eab673f24f90
